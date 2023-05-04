@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    padding: 10rem;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./img/pioneer-bank-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.submit-area{
+    padding: 2rem;
+    margin: 0 auto;
+    height: 17rem;
+    width: 100%;
+    border-radius: 12px;
+    background-color: #CBCBCD;
+}
+
+/* ============= --- transaction area starts from here --- ============= */
+#transactionArea{
+    display: none;
+}
+#grid-boxes{
+    height: 7rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+}
+#gird-boxes2{
+    height: 12rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1.2rem;
+    margin-top: 1.2rem;
+}
+.div{
+    padding: .5rem;
+    border-radius: .4rem;
+    background-color: #CBCBCD;
+}
+#gird-boxes2 .div{
+    padding: 2rem;
+}
+/* ============= --- transaction ends here --- ============= */
+
+/* ============= --- Media Query starts from here --- ============= */
+@media only screen and (max-width: 600px){ 
+    body{
+        padding: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        padding: 2rem;
+    }
+}
+@media only screen and (max-width: 992px){
+    body{
+        padding: 2rem;
+    }
+}
+@media only screen and (max-width: 1200px){
+    body{
+        padding: 2rem;
+    }
+}
+/* ============= --- Media Query ends here --- ============= */
